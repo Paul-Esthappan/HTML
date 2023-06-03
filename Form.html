@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="form.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form id="form" action="/Button.html">
+    <label for="name">Enter your name :</label>
+    <input type="text" id="name" placeholder="eg:Arun Raj"><br><br>
+    
+    <label for="password">Enter your password :</label>
+    <input type="password" placeholder="********"><br><br>
+    
+    <label for="DOB">Enter your date of birth :</label>
+    <input type="date" name="DOB" id="DOB"><br><br>
+    
+    <label for="photo">Upload a passport size photo :</label>
+    <input type="file" placeholder=""><br><br>
+    
+    <label for="email">Enter your mail id :</label>
+    <input type="email" placeholder="ex:arun@gmail.com"><br><br>
+
+    <label for="gender">Gender :</label><br>
+    <label for="male">Male</label>
+    <input type="radio" name="Gender">
+    <label for="Female">Female</label>
+    <input type="radio" name="Gender"><br><br>
+    
+    <label for="Course">Select desired course</label>
+    <select name="course" id="">
+        <option value="MERN">MERN</option>
+        <option value="Python">Python</option>
+        <option value="Boot">Bootstrap</option>
+        <option value="Php">Php</option>
+    </select><br><br>
+
+    <label for="skill">Education :</label><br>
+    <label for="BCA">BCA</label>
+    <input type="checkbox" value="BCA">
+    
+    <label for="BCA">MCA</label>
+    <input type="checkbox" value="MCA">
+
+    <label for="B.tech/M.tech computer">B.tech computer</label>
+    <input type="checkbox" value="B.tech/M.tech computer">
+
+    <label for="other">Other</label>
+    <input type="checkbox" value="other">
+    <br><br>
+
+    <label for="note">Add notes</label>
+    <textarea name="note" id="" cols="40" rows="10"></textarea>
+    <br><br>
+
+    <input type="submit" value="submit">
+    <input type="reset" value="reset">
+
+</form>
+</body>
+</html>
