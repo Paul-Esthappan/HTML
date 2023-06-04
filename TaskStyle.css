@@ -1,0 +1,33 @@
+#div1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+#image1{
+    height: 100px;
+    width: 100px;
+    padding-top: 10px;
+}
+p{
+    padding: auto;
+    color: blue;
+    border: 1px;
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+}
+
+#men{
+    background-color: gray;
+    color: white;
+    padding-left: 10px;
+}
+#tex1{
+    background-color: cadetblue;
+    padding-left: 10px;
+    padding-bottom: 200px;
+}
