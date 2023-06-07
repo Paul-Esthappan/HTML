@@ -1,0 +1,27 @@
+.card1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+
+div{
+    padding: 5px;
+}
+
+p{
+    margin-top: 15px;   
+    padding: 5px;
+    
+}
+
+.pclass{
+    background-color: white;
+}
+
+.cdiv{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
