@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function con()
+        {
+           var a=2;
+           let b=3;
+
+            if(true)
+            {
+                var a=4;
+                let b=6;
+                document.write(a +"<br>");
+                document.write(b +"<br>");
+            }
+            document.write(a +"<br>"); //let scope is outside of if block becs its assigned outs side
+            document.write(b +"<br>"); //var have no scope
+        }
+        con();
+    </script>
+</body>
+</html>
