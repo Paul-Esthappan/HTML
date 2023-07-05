@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="header1" class="headclass">Topic1</h1>
+    <h1 class="headclass">Topic2</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Culpa numquam unde saepe. Rem odit enim eaque incidunt cum officia, est ad, ipsum, provident magnam nisi. Sapiente consectetur velit id illo.</p>
+    
+
+    <script>
+
+        // var a = document.getElementById("header1"); //updating dom by id by assining to variable
+        // a.innerHTML="Topic changed"
+        // a.style.color="red";
+
+        //
+
+        var b = document.getElementsByClassName("headclass")[0];            //updating dom by class - assining to variable
+        b.innerHTML="changed";                                              //updating dom by class  - ssining to variable
+        
+        document.getElementsByClassName("headclass")[1].innerHTML="hi world"; //updating dom by class - inline
+
+        document.getElementsByTagName("p")[0].innerHTML="lorem2"; //updating dom by tags -inline
+
+
+
+    </script>
+
+</body>
+</html>
+<!-- **** -->

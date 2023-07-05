@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="Fruit" placeholder="Enter any fruit name">
+    <button onclick="switc()"> Comform</button>
+    <p id="item"></p>
+
+    <script>
+        
+        function switc()
+        {
+            var fruits = document.getElementById("Fruit").value;
+            var a;
+            switch(fruits)
+            {
+                case "Banana": 
+                a= "banana is nice";
+                break;
+                case "Orange": 
+                a= "Orange is nice";
+                break;
+                case "Cherry": 
+                a= "Chreey is nice";
+                break;
+                case "Apple": 
+                a= "Apple is nice";
+                break;
+            default:
+                a= "Enter a fruit name";    
+            }
+
+            document.getElementById("item").innerHTML=a;
+    }
+    </script>
+    
+</body>
+</html>
