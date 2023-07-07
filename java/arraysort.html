@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function sortarray() {
+
+            arr=[1,5,2,2,3,4,7,1,2,5,5]
+            let temp=[1]
+            
+            for (let m = 0; m < arr.length; m++) 
+            {
+                for (let n = m+1; n < arr.length; n++) 
+                {
+                    if (arr[m]>arr[n]) 
+                    {   
+                        temp=arr[n]
+                        arr[n]=arr[m]
+                        arr[m]=temp;
+                    }    
+                }
+            }
+            document.write("<br>"+arr)
+            document.write("<br>"+'hi'+'<br>')
+            let k=0
+            for (let i = 1; i < arr.length; i++) 
+            {
+                if (arr[i]!=arr[k]) 
+                {
+                    k=k+1
+                    arr[k]=arr[i]
+                    
+                }   
+            }
+            for (let j = 0; j < k+1; j++) {
+                document.write(arr[j])
+                
+            }
+            
+            
+        }
+        sortarray();
+    </script>
+</body>
+</html>
