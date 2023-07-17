@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class main
+        {
+            constructor(a)
+            {
+                this.car = a+" Nano<br>"
+                
+            }
+        }
+        class secclass extends main
+        {
+            constructor(color,price)
+            {
+                super("TATA");
+                this.color=color
+                this.price=price
+            }
+
+        }
+        var obj=new secclass("red <br>","5 lack");
+        document.write(obj.car,obj.color,obj.price);
+    </script>
+</body>
+</html>
